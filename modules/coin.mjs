@@ -14,11 +14,11 @@
  * returns: heads
  * 
  */
-
+/*
  import { createRequire } from 'module';
 export const require = createRequire(import.meta.url);
 const minimist = require('/Users/angus/github-classroom/comp426-2022-spring/a02-angusingram/node_modules/minimist');
-
+*/
 export function coinFlip() {
   let min = 1;
   let max = 10;
