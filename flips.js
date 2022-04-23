@@ -11,6 +11,6 @@ if (args[0] == null) {
     let array1 = coinFlips(args[0]);
     console.log(array1);
     console.log(countFlips(array1));
-}
+} 
 //process.stdout.write(array1);
 //process.stdout.write(countFlips(array1));
