@@ -84,7 +84,7 @@ export function countFlips(array) {
       tails++;
     }
   }
-  return "{ tails: " + tails + ", heads: " + heads + " }";
+  return "{ heads: " + heads + ", tails: " + tails + " }";
 }
 
 /** Flip a coin!
