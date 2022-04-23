@@ -104,7 +104,7 @@ export function flipACoin(call) {
     if (x == call) {
       return "{ call: '" + call + "', flip: '" + x + "', result: 'win' }"
     } else {
-      return "{ call: '" + call + "', flip: ' + x + ', result: 'lose' }"
+      return "{ call: '" + call + "', flip: " + x + ", result: 'lose' }"
     }
   }
   
